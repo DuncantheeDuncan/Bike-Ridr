@@ -1,12 +1,11 @@
-import bicycles.Bicycle;
+package bicycles;
 
 public class BikeRide {
-    Bicycle bicycle = new Bicycle();
-    BikeRide bikeRide = new BikeRide(bicycle);
-    bikeRide.ride();
+    private final Bicycle bicycle;
 
-    System.out.println(bikeRide.currentSpeed());
-
+    public BikeRide(Bicycle bicycle) {
+        this.bicycle = bicycle;
+    }
 
     public void ride(){
         this.bicycle.accelerate();
@@ -15,5 +14,9 @@ public class BikeRide {
         this.bicycle.brake();
         this.bicycle.brake();
         this.bicycle.accelerate();
+    }
+
+    public int currentSpeed() {
+       return this.bicycle.currentSpeed();
     }
 }
