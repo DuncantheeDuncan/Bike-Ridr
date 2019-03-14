@@ -1,5 +1,7 @@
 package bicycles;
 
+import bicycles.models.MountainBike;
+import bicycles.models.RoadBike;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,11 +10,21 @@ public class BicycleTest {
 
     @Test
     public void shouldAccellerate() {
-        Bicycle bicycle = new Bicycle();
-        BikeRide bikeRide = new BikeRide(bicycle);
+//       (1)<-- represents CLASS --> Bicycle (2)<-- acts as --> object bicycle = new Bicycle();
+        RoadBike roadBike = new RoadBike();
+        BikeRide bikeRide = new BikeRide(roadBike);
         bikeRide.ride();
 
         System.out.println(bikeRide.currentSpeed());
-        assertEquals(bikeRide.currentSpeed(),14);
+        assertEquals(bikeRide.currentSpeed(),0);
+    }
+    @Test
+    public void shouldAccelerate2(){
+        MountainBike mountainBike = new MountainBike();
+        BikeRide bikeRide = new BikeRide(mountainBike);
+        bikeRide.ride();
+
+        System.out.println(bikeRide.currentSpeed());
+        assertEquals(bikeRide.currentSpeed(),0);
     }
 }
