@@ -14,6 +14,7 @@ public class BikeRide {
         this.bicycle.brake();
         this.bicycle.brake();
         this.bicycle.accelerate();
+        this.bicycle.stop();/*added stop method*/
     }
 
     public int currentSpeed() {
