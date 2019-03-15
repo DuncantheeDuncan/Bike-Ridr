@@ -17,7 +17,22 @@ public class BikeRideThree implements BikeRide {
         this.bicycle.stop();/*added stop method*/
     }
 
-    public int currentSpeed() {
+
+    public void accelerate() {
+
+    }
+
+    public void brake(){
+
+    }
+
+    public int currentSpeed()
+    {
         return this.bicycle.currentSpeed();
+    }
+
+    @Override
+    public void stop() {
+
     }
 }

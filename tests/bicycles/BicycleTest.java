@@ -12,7 +12,7 @@ public class BicycleTest {
     public void shouldAccellerate() {
 //       (1)<-- represents CLASS --> Bicycle (2)<-- acts as --> object bicycle = new Bicycle();
         RoadBike roadBike = new RoadBike();
-        BikeRide bikeRide = new BikeRide(roadBike);
+        BikeRide bikeRide = new BikeRideOne(roadBike);
         bikeRide.ride();
 
         System.out.println(bikeRide.currentSpeed());
@@ -27,4 +27,16 @@ public class BicycleTest {
         System.out.println(bikeRide.currentSpeed());
         assertEquals(bikeRide.currentSpeed(),0);
     }
+    @Test
+    public void testBikeOne(){
+        MountainBike mountainBike = new MountainBike();
+        BikeRideOne bikeRideOne = new BikeRideOne(mountainBike);
+        bikeRideOne.ride();
+
+        System.out.println(bikeRideOne.currentSpeed());
+        assertEquals(bikeRideOne.currentSpeed(),1);
+
+
+    }
+
 }

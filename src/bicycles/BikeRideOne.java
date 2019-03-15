@@ -1,12 +1,16 @@
 package bicycles;
 
+
 public class BikeRideOne implements BikeRide {
 
-    private final Bicycle bicycle;
+    private Bicycle bicycle;
 
     public BikeRideOne(Bicycle bicycle) {
+
         this.bicycle = bicycle;
+
     }
+
 
     public void ride(){
         this.bicycle.accelerate();
@@ -18,22 +22,23 @@ public class BikeRideOne implements BikeRide {
         this.bicycle.stop();/*added stop method*/
     }
 
-    @Override
-    public void accelerate() {
 
-    }
-
-
-    public void brake() {
-
-    }
+//    public void accelerate() {
+//
+//    }
+//
+//
+//    public void brake() {
+//
+//    }
 
     public int currentSpeed() {
+
         return this.bicycle.currentSpeed();
     }
 
-    @Override
-    public void stop() {
 
-    }
+//    public void stop() {
+//
+//    }
 }
