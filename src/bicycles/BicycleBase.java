@@ -2,9 +2,8 @@ package bicycles;
 
 public abstract class BicycleBase implements Bicycle {
     private int speed = 0;
-    protected int changeSpeed(int a){
-
-        return speed += a;/*missing!! code*/
+    protected void changeSpeed(int num){
+        speed += num;/*missing!! code*/
     }
 
 
@@ -12,7 +11,7 @@ public abstract class BicycleBase implements Bicycle {
         return  speed;
     }
 
-
+@Override
     public void stop() {
         speed = 0;
 

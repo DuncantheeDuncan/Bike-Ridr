@@ -11,6 +11,10 @@ public class BikeRideOne implements BikeRide {
 
     }
 
+    public int currentSpeed() {
+
+        return this.bicycle.currentSpeed();
+    }
 
     public void ride(){
         this.bicycle.accelerate();
@@ -19,26 +23,13 @@ public class BikeRideOne implements BikeRide {
         this.bicycle.brake();
         this.bicycle.brake();
         this.bicycle.accelerate();
-        this.bicycle.stop();/*added stop method*/
+        //this.bicycle.stop();/*added stop method*/
     }
 
 
-//    public void accelerate() {
-//
-//    }
-//
-//
-//    public void brake() {
-//
-//    }
-
-    public int currentSpeed() {
-
-        return this.bicycle.currentSpeed();
-    }
 
 
-//    public void stop() {
-//
-//    }
+
+
+
 }
