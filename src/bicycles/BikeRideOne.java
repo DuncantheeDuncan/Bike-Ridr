@@ -23,7 +23,8 @@ public class BikeRideOne implements BikeRide {
         this.bicycle.brake();
         this.bicycle.brake();
         this.bicycle.accelerate();
-        //this.bicycle.stop();/*added stop method*/
+        //this.bicycle.stop();/*added stop method
+        // for testing!*/
     }
 
 

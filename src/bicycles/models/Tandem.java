@@ -17,12 +17,6 @@ public class Tandem extends BicycleBase {
 
     }
 
-
-    public int currentSpeed() {// infinite why??
-        return  currentSpeed();
-    }
-
-
     public void stop() {
         changeSpeed(0);
 

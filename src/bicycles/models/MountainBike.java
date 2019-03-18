@@ -16,14 +16,4 @@ public class MountainBike extends BicycleBase {
 
     }
 
-//    //@Override
-//    public int currentSpeed() {
-//        return  currentSpeed();// i added any number!!
-//    }
-//
-//
-//    public void stop() {
-//        stop();
-//
-//    }
 }
