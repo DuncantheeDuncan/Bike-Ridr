@@ -2,13 +2,15 @@ package bicycles;
 
 import org.junit.jupiter.api.Test;
 
+import java.awt.font.TextLayout;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class BicycleSpecificationTest {
     @Test
     public void testingTheRoadBikespecToSeeIf(){
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4);
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
         Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
         BikeRideOneRoadbike bikeRideOne = new BikeRideOneRoadbike(bicycle);
         bikeRideOne.ride();
@@ -22,7 +24,7 @@ public class BicycleSpecificationTest {
 
     @Test
     public void testingTheMountainBike(){
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3,BicycleType.MountainBike);
         Bicycle mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRideTwoMountainBike bikeRideTwo = new BikeRideTwoMountainBike(mountainBike);
         bikeRideTwo.ride();
@@ -39,7 +41,7 @@ public class BicycleSpecificationTest {
     @Test
     public void tesTheTandemBicModel(){
 
-        BicycleSpecification tandemBikeSpec = new BicycleSpecification(12,-7);
+        BicycleSpecification tandemBikeSpec = new BicycleSpecification(12,-7,BicycleType.Tandem);
         Bicycle tandem = new BicycleFromSpec(tandemBikeSpec);
         BikeRideThreeTandembike bikeRideThreeTandembike = new BikeRideThreeTandembike(tandem);
         bikeRideThreeTandembike.ride();

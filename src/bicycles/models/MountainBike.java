@@ -17,4 +17,10 @@ public class MountainBike extends BicycleBase {
 
     }
 
+
+    public BicycleType getBicycleType() {
+        return BicycleType.MountainBike;
+
+
+    }
 }

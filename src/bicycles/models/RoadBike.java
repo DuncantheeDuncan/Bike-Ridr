@@ -17,5 +17,10 @@ public class RoadBike extends BicycleBase {
     }
 
 
-//    Use the changeSpeed method from BicycleBase.
+    public BicycleType getBicycleType() {
+        return BicycleType.RoadBike;
+
+
+    }
+    //    Use the changeSpeed method from BicycleBase.
 }

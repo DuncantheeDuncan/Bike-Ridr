@@ -22,4 +22,10 @@ public class Tandem extends BicycleBase {
         changeSpeed(0);
 
     }
+
+
+    public BicycleType getBicycleType() {
+     return BicycleType.Tandem;
+
+    }
 }
