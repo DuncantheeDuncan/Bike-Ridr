@@ -9,6 +9,7 @@ public class Tandem extends BicycleBase {
     public void accelerate() {
         changeSpeed(12);
 
+
     }
 
 

@@ -42,7 +42,7 @@ public class BicycleTest {
     @Test
     public void testBikeOne(){
         MountainBike mountainBike = new MountainBike();
-        BikeRideOne bikeRideOne = new BikeRideOne(mountainBike);
+        BikeRideOneRoadbike bikeRideOne = new BikeRideOneRoadbike(mountainBike);
         bikeRideOne.ride();
 
         System.out.println(bikeRideOne.currentSpeed());
@@ -53,7 +53,7 @@ public class BicycleTest {
     @Test
     public  void testBikeTwo(){
         Tandem tandem = new Tandem();
-        BikeRideTwo bikeRideTwo = new BikeRideTwo(tandem);
+        BikeRideTwoMountainBike bikeRideTwo = new BikeRideTwoMountainBike(tandem);
         bikeRideTwo.ride();
 
         System.out.println(bikeRideTwo.currentSpeed());
@@ -71,7 +71,7 @@ public class BicycleTest {
         * to new 'class' that you can use
         * #almost same as updating a variable in javascript
         * var a = a;.*/
-        BikeRideThree bikeRideThree = new BikeRideThree(roadBike);
+        BikeRideThreeTandembike bikeRideThree = new BikeRideThreeTandembike(roadBike);
         /*same applies as mentioned above the diff is we dealing
         with a ride class
         * but now the  parantaces of a ride bike

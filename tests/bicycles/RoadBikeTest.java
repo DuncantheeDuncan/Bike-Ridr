@@ -16,7 +16,7 @@ public class RoadBikeTest {
          * to new 'class' that you can use
          * #almost same as updating a variable in javascript
          * var a = a;.*/
-        BikeRideThree bikeRideThree = new BikeRideThree(roadBike);
+        BikeRideThreeTandembike bikeRideThree = new BikeRideThreeTandembike(roadBike);
         /*same applies as mentioned above the diff is we dealing
         with a ride class
         * but now the  parantaces of a ride bike

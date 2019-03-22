@@ -10,7 +10,7 @@ public class MountainBikeTest {
     @Test
     public void testingTheMountainBike(){
         MountainBike mountainBike = new MountainBike();
-        BikeRideOne bikeRideOne = new BikeRideOne(mountainBike);
+        BikeRideOneRoadbike bikeRideOne = new BikeRideOneRoadbike(mountainBike);
         bikeRideOne.ride();
 
         System.out.println(bikeRideOne.currentSpeed());
