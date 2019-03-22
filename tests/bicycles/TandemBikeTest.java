@@ -9,7 +9,7 @@ public class TandemBikeTest {
     @Test
     public  void testingTheTandemBikeClass(){
         Tandem tandem = new Tandem();
-        BikeRideTwo bikeRideTwo = new BikeRideTwo(tandem);
+        BikeRideTwoMountainBike bikeRideTwo = new BikeRideTwoMountainBike(tandem);
         bikeRideTwo.ride();
 
         System.out.println(bikeRideTwo.currentSpeed());

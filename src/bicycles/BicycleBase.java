@@ -11,7 +11,7 @@ public abstract class BicycleBase implements Bicycle {
         return  speed;
     }
 
-@Override
+
     public void stop() {
         speed = 0;
 
