@@ -12,7 +12,7 @@ public class BicycleFromSpec extends BicycleBase {
       changeSpeed(num.getAccelerationSpeed());
 
     }
-
+//148998
 
     public void brake() {
       changeSpeed(num.getBrakeSpeed());

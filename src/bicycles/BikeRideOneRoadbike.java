@@ -15,7 +15,7 @@ public class BikeRideOneRoadbike implements BikeRide {
 
         return this.bicycle.currentSpeed();
     }
-
+//148998
     public void ride(){
         this.bicycle.accelerate();
         this.bicycle.accelerate();
