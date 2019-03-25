@@ -33,14 +33,10 @@ public class BicycleSpecificationTest {
         System.out.println(bikeRideTwo.currentSpeed());
         assertEquals(bikeRideTwo.currentSpeed(),14);
 
-
-
-
     }
 
     @Test
     public void tesTheTandemBicModel(){
-
         BicycleSpecification tandemBikeSpec = new BicycleSpecification(12,-7,BicycleType.Tandem);
         Bicycle tandem = new BicycleFromSpec(tandemBikeSpec);
         BikeRideThreeTandembike bikeRideThreeTandembike = new BikeRideThreeTandembike(tandem);
