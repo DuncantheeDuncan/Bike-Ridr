@@ -16,6 +16,7 @@ public class MountainBikeTest {
         System.out.println(bikeRideOne.currentSpeed());
         assertEquals(bikeRideOne.currentSpeed(),14);
 
-
+/*
+* test if it accelaret , brake,*/
     }
 }

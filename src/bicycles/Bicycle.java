@@ -10,6 +10,3 @@ public interface Bicycle {
 
 
 }
-     /*public BicycleType getBicycleType(){
-          return bicycleType;
-     }*/

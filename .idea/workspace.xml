@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56daa3c-1600-4ae7-8e8d-771675ddecdf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bicycles/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/FunRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bicycles/FunRideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/FunRideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +16,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/bicycles/FunRideTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="-22">
               <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,11 +102,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="31" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="150" />
+    <option name="y" value="33" />
     <option name="width" value="1114" />
-    <option name="height" value="666" />
+    <option name="height" value="638" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -166,7 +165,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553524209509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553524344470" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -291,18 +290,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunRideTest_testingForgetCountForType - 2019.03.25 at 16h 00m 02s.xml">
-      <configuration name="FunRideTest.testingForgetCountForType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunRideTest_funRideTestEnteredCountRejected - 2019.03.25 at 16h 04m 30s.xml">
-      <configuration name="FunRideTest.funRideTestEnteredCountRejected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunRideTest_funRideTestEnteredCountRejected - 2019.03.25 at 16h 05m 03s.xml">
-      <configuration name="FunRideTest.funRideTestEnteredCountRejected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunRideTest_funRideTestEnteredCountRejected - 2019.03.25 at 16h 07m 18s.xml">
-      <configuration name="FunRideTest.funRideTestEnteredCountRejected" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FunRideTest_funRideTestEnteredCountRejected - 2019.03.25 at 16h 12m 39s.xml">
       <configuration name="FunRideTest.funRideTestEnteredCountRejected" configurationId="JUnit" />
     </history-entry>
@@ -321,12 +308,23 @@
     <history-entry file="FunRideTest_testingForgetCountForTypeOfTandemMountainBikeRoadBike - 2019.03.25 at 16h 17m 27s.xml">
       <configuration name="FunRideTest.testingForgetCountForTypeOfTandemMountainBikeRoadBike" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FunRideTest_testingForgetCountForTypeOfTandemMountainBikeRoadBike - 2019.03.25 at 16h 29m 45s.xml">
+      <configuration name="FunRideTest.testingForgetCountForTypeOfTandemMountainBikeRoadBike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunRideTest_testingForgetCountForTypeOfTandemMountainBikeRoadBike - 2019.03.25 at 16h 30m 00s.xml">
+      <configuration name="FunRideTest.testingForgetCountForTypeOfTandemMountainBikeRoadBike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunRideTest_getEnteredCountTest - 2019.03.25 at 16h 30m 13s.xml">
+      <configuration name="FunRideTest.getEnteredCountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunRideTest_getEnteredCountTest - 2019.03.25 at 16h 30m 24s.xml">
+      <configuration name="FunRideTest.getEnteredCountTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="150" y="33" width="1114" height="638" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49902153" visible="true" weight="0.23787878" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49902153" visible="true" weight="0.29400748" />
       <window_info id="Structure" order="1" sideWeight="0.50097847" side_tool="true" weight="0.29473683" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,12 +333,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2744186" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2744186" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.49119374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6183953" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.30528376" />
@@ -533,7 +531,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/bicycles/FunRideTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="-22">
           <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
