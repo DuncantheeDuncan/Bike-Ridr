@@ -1,10 +1,10 @@
 package bicycles;
 
 
-public class BikeRideThreeTandembike implements BikeRide {
+public class BikeRideMoreCautious implements BikeRide {
     private Bicycle bicycle;
 
-    public BikeRideThreeTandembike(Bicycle bicycle) {
+    public BikeRideMoreCautious(Bicycle bicycle) {
 
         this.bicycle = bicycle;
 

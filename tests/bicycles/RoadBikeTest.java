@@ -8,23 +8,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RoadBikeTest {
 
     @Test
-    public void testingRoadBike(){
+    public void testingRoadBikeForCurrentSpeed(){
         RoadBike roadBike = new RoadBike();
-        /*starting with the class that im going to test from
-         * so you call it 'class' and reference it with
-         * a new "variable" of some sort!(instance)
-         * to new 'class' that you can use
-         * #almost same as updating a variable in javascript
-         * var a = a;.*/
-        BikeRideThreeTandembike bikeRideThree = new BikeRideThreeTandembike(roadBike);
-        /*same applies as mentioned above the diff is we dealing
-        with a ride class
-        * but now the  parantaces of a ride bike
-        * takes */
-        bikeRideThree.ride();
-
-        System.out.println(bikeRideThree.currentSpeed());
-        assertEquals(bikeRideThree.currentSpeed(),36);
+        BikeRideFastAndFurious bikeRideOneRoadbike = new BikeRideFastAndFurious(roadBike);
+        bikeRideOneRoadbike.ride();
+        System.out.println(bikeRideOneRoadbike.currentSpeed());
+        assertEquals(bikeRideOneRoadbike.currentSpeed(),168);
 
     }
 }
+
+
+
+

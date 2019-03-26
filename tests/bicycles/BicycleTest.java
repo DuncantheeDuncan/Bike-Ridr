@@ -10,46 +10,48 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BicycleTest {
 
        @Test
-    public void testBikeOne(){
+    public void testingMountainBike(){
         MountainBike mountainBike = new MountainBike();
-        BikeRideOneRoadbike bikeRideOne = new BikeRideOneRoadbike(mountainBike);
-        bikeRideOne.ride();
-
-        System.out.println(bikeRideOne.currentSpeed());
-        assertEquals(bikeRideOne.currentSpeed(),14);
+        mountainBike.accelerate();
+        mountainBike.stop();
+        mountainBike.accelerate();
+        mountainBike.accelerate();
+        mountainBike.brake();
+        mountainBike.accelerate();
+        mountainBike.brake();
+        //System.out.println(mountainBike.currentSpeed());
+        assertEquals(mountainBike.currentSpeed(),9);
 
 
     }
     @Test
-    public  void testBikeTwo(){
+    public  void testingTandem(){
         Tandem tandem = new Tandem();
-        BikeRideTwoMountainBike bikeRideTwo = new BikeRideTwoMountainBike(tandem);
-        bikeRideTwo.ride();
-
-        System.out.println(bikeRideTwo.currentSpeed());
-        assertEquals(bikeRideTwo.currentSpeed(),34);
+        tandem.accelerate();
+        tandem.brake();
+        tandem.accelerate();
+        tandem.accelerate();
+        tandem.brake();
+        tandem.stop();
+        tandem.accelerate();
+        tandem.accelerate();
+        // System.out.println(bikeRideTwo.currentSpeed());
+        assertEquals(tandem.currentSpeed(),46);
 
     }
 
 
     @Test
-    public void testBikeThree(){
+    public void testingRoadBike(){
         RoadBike roadBike = new RoadBike();
-        /*starting with the class that im going to test from
-        * so you call it 'class' and reference it with
-        * a new "variable" of some sort!(instance)
-        * to new 'class' that you can use
-        * #almost same as updating a variable in javascript
-        * var a = a;.*/
-        BikeRideThreeTandembike bikeRideThree = new BikeRideThreeTandembike(roadBike);
-        /*same applies as mentioned above the diff is we dealing
-        with a ride class
-        * but now the  parantaces of a ride bike
-        * takes */
-        bikeRideThree.ride();
-
-        System.out.println(bikeRideThree.currentSpeed());
-        assertEquals(bikeRideThree.currentSpeed(),36);
+        roadBike.accelerate();
+        roadBike.accelerate();
+        roadBike.stop();
+        roadBike.accelerate();
+        roadBike.brake();
+        roadBike.accelerate();
+        // System.out.println(bikeRideThree.currentSpeed());
+        assertEquals(roadBike.currentSpeed(),18);
 
     }
 }

@@ -22,5 +22,4 @@ public class RoadBike extends BicycleBase {
 
 
     }
-    //    Use the changeSpeed method from BicycleBase.
 }
