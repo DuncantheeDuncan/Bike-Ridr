@@ -1,4 +1,7 @@
-package bicycles;
+package bicycles.rides;
+import bicycles.Bicycle;
+import bicycles.BicycleType;
+
 import java.util.*;
 
 public class FunRide {

@@ -1,5 +1,8 @@
-package bicycles;
+package bicycles.rides;
 
+
+import bicycles.Bicycle;
+import bicycles.rides.BikeRide;
 
 public class BikeRideMoreCautious implements BikeRide {
     private Bicycle bicycle;

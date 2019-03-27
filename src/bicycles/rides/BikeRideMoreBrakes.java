@@ -1,11 +1,14 @@
-package bicycles;
+package bicycles.rides;
 
 
-public class BikeRideFastAndFurious implements BikeRide {
+import bicycles.Bicycle;
+import bicycles.rides.BikeRide;
+
+public class BikeRideMoreBrakes implements BikeRide {
 
     private Bicycle bicycle;
 
-    public BikeRideFastAndFurious(Bicycle bicycle) {
+    public BikeRideMoreBrakes(Bicycle bicycle) {
 
         this.bicycle = bicycle;
 
@@ -22,19 +25,18 @@ public class BikeRideFastAndFurious implements BikeRide {
         this.bicycle.accelerate();
         this.bicycle.brake();
         this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.brake();
         this.bicycle.accelerate();
         this.bicycle.accelerate();
         this.bicycle.accelerate();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.brake();
         this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
+        this.bicycle.brake();
+        this.bicycle.brake();
     }
 
 

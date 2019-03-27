@@ -1,5 +1,9 @@
-package bicycles;
+package bicycles.rides;
 
+import bicycles.BicycleType;
+import bicycles.rides.FunRide;
+import bicycles.specification.BicycleFromSpec;
+import bicycles.specification.BicycleSpecification;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
