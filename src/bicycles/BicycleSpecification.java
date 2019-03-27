@@ -15,8 +15,6 @@ public class BicycleSpecification {
 
     }
 
-
-
     public int getAccelerationSpeed(){
 
 

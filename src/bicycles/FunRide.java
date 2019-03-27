@@ -2,7 +2,6 @@ package bicycles;
 import java.util.*;
 
 public class FunRide {
-    //Bicycle bicycle;
     private int MaxNUm;
     private  int count = 0;
     private List<Bicycle> bicycles = new ArrayList<>();
@@ -12,7 +11,6 @@ public class FunRide {
 
    }
    public  String accept(Bicycle bicycle){
-       //this.bicycle = bicycle;
        if(  bicycles.size() >= MaxNUm){
 
            return "Rejected";

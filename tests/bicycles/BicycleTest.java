@@ -17,10 +17,10 @@ public class BicycleTest {
         mountainBike.accelerate();
         mountainBike.accelerate();
         mountainBike.brake();
+        mountainBike.stop();
         mountainBike.accelerate();
         mountainBike.brake();
-        //System.out.println(mountainBike.currentSpeed());
-        assertEquals(mountainBike.currentSpeed(),9);
+        assertEquals(mountainBike.currentSpeed(),2);
 
 
     }
@@ -33,10 +33,9 @@ public class BicycleTest {
         tandem.accelerate();
         tandem.brake();
         tandem.stop();
-        tandem.accelerate();
-        tandem.accelerate();
-        // System.out.println(bikeRideTwo.currentSpeed());
-        assertEquals(tandem.currentSpeed(),46);
+        tandem.brake();
+        tandem.brake();
+        assertEquals(tandem.currentSpeed(),0);
 
     }
 
@@ -50,7 +49,6 @@ public class BicycleTest {
         roadBike.accelerate();
         roadBike.brake();
         roadBike.accelerate();
-        // System.out.println(bikeRideThree.currentSpeed());
         assertEquals(roadBike.currentSpeed(),18);
 
     }

@@ -12,17 +12,11 @@ public class Tandem extends BicycleBase {
 
     }
 
-// 142587
+
     public void brake() {
         changeSpeed(-7);
 
     }
-
-    public void stop() {
-        changeSpeed(0);
-
-    }
-
 
     public BicycleType getBicycleType() {
      return BicycleType.Tandem;

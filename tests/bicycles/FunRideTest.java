@@ -1,8 +1,5 @@
 package bicycles;
 
-import bicycles.models.MountainBike;
-import bicycles.models.RoadBike;
-import bicycles.models.Tandem;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -30,9 +27,9 @@ public class FunRideTest {
         funRide.accept(bicycleFromSpec2);
         funRide.accept(bicycleFromSpec2);
 
-       assertEquals(1,funRide.getCountForType(BicycleType.Tandem));
+       assertEquals(0,funRide.getCountForType(BicycleType.Tandem));
         assertEquals(2,funRide.getCountForType(BicycleType.MountainBike));
-        assertEquals(0,funRide.getCountForType(BicycleType.RoadBike));
+        assertEquals(4,funRide.getCountForType(BicycleType.RoadBike));
 
     }
 
@@ -62,7 +59,6 @@ public class FunRideTest {
         assertEquals(4,funRide.getEnteredCount());
 
     }
-
 
     @Test
     public void accept(){
