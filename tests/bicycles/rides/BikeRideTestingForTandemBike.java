@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TandemBikeTest {
+public class BikeRideTestingForTandemBike {
     @Test
     public  void testingMoreBrakes(){
         Tandem tandem = new Tandem();
