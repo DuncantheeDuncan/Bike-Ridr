@@ -25,9 +25,9 @@ public class FunRide {
 
    }
    public int getCountForType(BicycleType bicycleType) {
-       for (Bicycle i : bicycles) {
+       for (Bicycle bicycle : bicycles) {
 
-           if(i.getBicycleType() == bicycleType){
+           if(bicycle.getBicycleType() == bicycleType){
                count +=1;
 
            }
