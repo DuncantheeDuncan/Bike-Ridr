@@ -14,13 +14,14 @@ public class FunRide {
 
    }
    public  String accept(Bicycle bicycle){
-       if(  bicycles.size() >= MaxNUm){
+       if( bicycles.size() < MaxNUm && !bicycles.contains(bicycle)){
 
-           return "Rejected";
-       }
-       else {
            bicycles.add(bicycle);
            return "Accepted";
+
+       }
+       else {
+           return "Rejected";
        }
 
    }
