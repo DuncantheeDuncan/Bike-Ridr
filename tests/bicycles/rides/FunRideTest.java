@@ -49,7 +49,7 @@ public class FunRideTest {
     }
     @Test
     public void accept(){
-        FunRide funRide = new FunRide(3);
+        FunRide funRide = new FunRide(6);
         BicycleSpecification roadBike = new BicycleSpecification(11,-4, BicycleType.RoadBike);
         BicycleSpecification mountainBike = new BicycleSpecification(15,-3, BicycleType.MountainBike);
         BicycleSpecification tandemBike = new BicycleSpecification(12,-7, BicycleType.Tandem);
@@ -57,11 +57,9 @@ public class FunRideTest {
         BicycleFromSpec bicycleFromSpec4 = new BicycleFromSpec(roadBike);
         BicycleFromSpec bicycleFromSpec2 = new BicycleFromSpec(mountainBike);
         BicycleFromSpec bicycleFromSpec3 = new BicycleFromSpec(tandemBike);
-        funRide.accept(bicycleFromSpec4);
-        funRide.accept(bicycleFromSpec4);
-        funRide.accept(bicycleFromSpec4);
-        funRide.accept(bicycleFromSpec4);
+        funRide.accept(bicycleFromSpec1);
+        funRide.accept(bicycleFromSpec2);
         funRide.accept(bicycleFromSpec3);
-        assertEquals(funRide.accept(bicycleFromSpec4),"Rejected");
+        assertEquals(funRide.accept(bicycleFromSpec4),"Accepted");
     }
 }
