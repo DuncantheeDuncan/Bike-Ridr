@@ -8,10 +8,8 @@ public class FunRide {
     private int MaxNUm;
     private  int count = 0;
     private List<Bicycle> bicycles = new ArrayList<>();
-
    public FunRide(int maxBikes){
        this.MaxNUm = maxBikes;
-
    }
    public  String accept(Bicycle bicycle){
        if( bicycles.size() < MaxNUm && !bicycles.contains(bicycle)){
@@ -34,11 +32,9 @@ public class FunRide {
            }
        }
        return count;
-
    }
    public int getEnteredCount(){
 
     return bicycles.size();
-
    }
 }

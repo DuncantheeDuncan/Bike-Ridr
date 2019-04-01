@@ -1,13 +1,7 @@
 package bicycles.rides;
-
 import bicycles.models.Tandem;
-import bicycles.rides.BikeRideFastAndFurious;
-import bicycles.rides.BikeRideMoreBrakes;
-import bicycles.rides.BikeRideMoreCautious;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 public class BikeRideTestingForTandemBike {
     @Test
     public  void testingMoreBrakes(){
@@ -19,20 +13,16 @@ public class BikeRideTestingForTandemBike {
     }
     @Test
     public void testingForMoreCautious(){
-
         Tandem tandem = new Tandem();
         BikeRideMoreCautious bikeRideMoreCautious = new BikeRideMoreCautious(tandem);
         bikeRideMoreCautious.ride();
         assertEquals(bikeRideMoreCautious.currentSpeed(),34);
     }
-
     @Test
     public void testingForFastAndFurious(){
-
         Tandem tandem = new Tandem();
         BikeRideFastAndFurious bikeRideFastAndFurious = new BikeRideFastAndFurious(tandem);
         bikeRideFastAndFurious.ride();
         assertEquals(bikeRideFastAndFurious.currentSpeed(),178);
     }
 }
-

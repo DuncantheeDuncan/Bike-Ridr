@@ -1,13 +1,7 @@
 package bicycles.rides;
-
-
 import bicycles.Bicycle;
-import bicycles.rides.BikeRide;
-
 public class BikeRideFastAndFurious implements BikeRide {
-
     private Bicycle bicycle;
-
     public BikeRideFastAndFurious(Bicycle bicycle) {
 
         this.bicycle = bicycle;
@@ -18,7 +12,6 @@ public class BikeRideFastAndFurious implements BikeRide {
 
         return this.bicycle.currentSpeed();
     }
-
     public void ride(){
         this.bicycle.accelerate();
         this.bicycle.accelerate();
@@ -39,11 +32,4 @@ public class BikeRideFastAndFurious implements BikeRide {
         this.bicycle.accelerate();
         this.bicycle.accelerate();
     }
-
-
-
-
-
-
-
 }

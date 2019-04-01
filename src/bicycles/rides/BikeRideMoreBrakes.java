@@ -1,8 +1,5 @@
 package bicycles.rides;
-
-
 import bicycles.Bicycle;
-import bicycles.rides.BikeRide;
 
 public class BikeRideMoreBrakes implements BikeRide {
 
@@ -38,11 +35,4 @@ public class BikeRideMoreBrakes implements BikeRide {
         this.bicycle.brake();
         this.bicycle.brake();
     }
-
-
-
-
-
-
-
 }

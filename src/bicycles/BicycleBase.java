@@ -1,5 +1,4 @@
 package bicycles;
-
 public abstract class BicycleBase implements Bicycle {
     private int speed = 0;
     protected void changeSpeed(int bikeSpeed){
@@ -8,8 +7,6 @@ public abstract class BicycleBase implements Bicycle {
         }
         speed += bikeSpeed;
     }
-
-
     public int currentSpeed() {
         if(speed < 0){
             speed = 0;
@@ -17,10 +14,7 @@ public abstract class BicycleBase implements Bicycle {
         return  speed;
     }
 
-
     public void stop() {
         speed = 0;
-
     }
-
 }
