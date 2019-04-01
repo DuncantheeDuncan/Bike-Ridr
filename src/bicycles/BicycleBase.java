@@ -13,7 +13,6 @@ public abstract class BicycleBase implements Bicycle {
         }
         return  speed;
     }
-
     public void stop() {
         speed = 0;
     }

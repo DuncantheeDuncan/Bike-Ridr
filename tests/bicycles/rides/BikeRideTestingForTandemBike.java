@@ -9,7 +9,6 @@ public class BikeRideTestingForTandemBike {
         BikeRideMoreBrakes bikeRideMoreBrakes = new BikeRideMoreBrakes(tandem);
         bikeRideMoreBrakes.ride();
         assertEquals(bikeRideMoreBrakes.currentSpeed(),14);
-
     }
     @Test
     public void testingForMoreCautious(){
